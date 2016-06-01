@@ -31,3 +31,9 @@ E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\bin\Debug\zh-Hans\System.Web.Optim
 E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\obj\Debug\Web.Tests.csprojResolveAssemblyReference.cache
 E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\obj\Debug\Web.Tests.dll
 E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\obj\Debug\Web.Tests.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\bin\Debug\Easy.PM.Core.dll
+E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\bin\Debug\Easy.PM.Core.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\bin\Debug\Easy.PM.Store.dll
+E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\bin\Debug\EntityFramework.dll
+E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\bin\Debug\Easy.PM.Store.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Web.Tests\bin\Debug\EntityFramework.xml

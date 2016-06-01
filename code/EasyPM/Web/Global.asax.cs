@@ -6,6 +6,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Easy.PM.Core.Util;
+using Easy.PM.Store.PM;
 
 namespace Web
 {
@@ -16,6 +18,11 @@ namespace Web
     {
         protected void Application_Start()
         {
+            IocFactory.Map<IProjectDao,ProjectDao>();
+            var projectDao = IocFactory.Resolves<IProjectDao>();
+
+            var list =projectDao.Get();
+
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);

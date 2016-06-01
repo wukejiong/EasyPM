@@ -1,0 +1,4 @@
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Service.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Service.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\obj\Debug\Easy.PM.Service.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\obj\Debug\Easy.PM.Service.pdb

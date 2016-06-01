@@ -1,0 +1,5 @@
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Util\bin\Debug\Easy.PM.Util.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Util\bin\Debug\Easy.PM.Util.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Util\obj\Debug\Easy.PM.Util.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Util\obj\Debug\Easy.PM.Util.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Util\obj\Debug\Easy.PM.Util.csprojResolveAssemblyReference.cache
