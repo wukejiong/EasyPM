@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Easy.PM.Core.DB;
@@ -49,6 +50,18 @@ namespace Easy.PM.Store.DB
         {
             EF.Entry(model).State = EntityState.Modified;
             return new DataResult<bool>(EF.SaveChanges() > 0);
+        }
+
+        public virtual IQueryable<T> Filter(Expression<Func<T, bool>> filter, out int total, int index = 0,
+                                              int size = 50)
+        {
+            var skipCount = index * size;
+            var resetSet = filter != null
+                                ? Entities.Where<T>(filter).AsQueryable()
+                                : Entities.AsQueryable();
+            resetSet = skipCount == 0 ? resetSet.Take(size) : resetSet.Skip(skipCount).Take(size);
+            total = resetSet.Count();
+            return resetSet.AsQueryable();
         }
     }
 }

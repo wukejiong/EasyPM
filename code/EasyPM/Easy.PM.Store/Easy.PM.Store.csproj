@@ -74,8 +74,9 @@
     <Compile Include="DB\PM_Project.cs">
       <DependentUpon>PM.tt</DependentUpon>
     </Compile>
-    <Compile Include="PM\IProjectDao.cs" />
-    <Compile Include="PM\ProjectDao.cs" />
+    <Compile Include="DB\UnitOfWork.cs" />
+    <Compile Include="PM\IProjectRepository.cs" />
+    <Compile Include="PM\ProjectRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

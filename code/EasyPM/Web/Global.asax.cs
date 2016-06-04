@@ -18,17 +18,12 @@ namespace Web
     {
         protected void Application_Start()
         {
-            SingletonFactory.Map<IProjectDao,ProjectDao>();
-            var projectDao = SingletonFactory.Resolves<IProjectDao>();
-
-            var list =projectDao.Get();
-
             AreaRegistration.RegisterAllAreas();
-
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            IocConfig.Register();
         }
     }
 }

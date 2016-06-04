@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{58B73F53-BC85-42B6-9938-97B0B9F82AB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Tests", "Web.Tests\Web.Tests.csproj", "{0F52F439-9BA7-4844-BBAA-2D5AF4EC92BE}"
@@ -12,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy.PM.Service", "Easy.PM.Service\Easy.PM.Service.csproj", "{9057D3F3-D0D8-4F96-953C-53A0E1F685BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy.PM.Core", "Easy.PM.Core\Easy.PM.Core.csproj", "{5BCE175E-3E17-4F7E-95FC-518647291EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy.PM.Service.VO", "Easy.PM.Service.VO\Easy.PM.Service.VO.csproj", "{B190D896-1629-4C62-85CD-FF31A10B76EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +39,10 @@ Global
 		{5BCE175E-3E17-4F7E-95FC-518647291EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BCE175E-3E17-4F7E-95FC-518647291EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BCE175E-3E17-4F7E-95FC-518647291EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B190D896-1629-4C62-85CD-FF31A10B76EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B190D896-1629-4C62-85CD-FF31A10B76EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B190D896-1629-4C62-85CD-FF31A10B76EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B190D896-1629-4C62-85CD-FF31A10B76EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

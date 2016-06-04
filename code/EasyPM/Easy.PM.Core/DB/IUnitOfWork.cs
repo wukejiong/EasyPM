@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Easy.PM.Store.DB;
 
-namespace Easy.PM.Store.PM
+namespace Easy.PM.Core.DB
 {
-    public class ProjectDao : EFRepository<PM_Project>, IProjectDao
+    public interface IUnitOfWork
     {
+        void Save();
     }
 }

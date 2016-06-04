@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9057D3F3-D0D8-4F96-953C-53A0E1F685BF}</ProjectGuid>
+    <ProjectGuid>{B190D896-1629-4C62-85CD-FF31A10B76EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Easy.PM.Service</RootNamespace>
-    <AssemblyName>Easy.PM.Service</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>Easy.PM.Service.VO</RootNamespace>
+    <AssemblyName>Easy.PM.Service.VO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,27 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PM\IProjectService.cs" />
-    <Compile Include="PM\ProjectService.cs" />
+    <Compile Include="PM\ProjectVo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Permission\" />
-    <Folder Include="User\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Easy.PM.Core\Easy.PM.Core.csproj">
-      <Project>{5bce175e-3e17-4f7e-95fc-518647291eb6}</Project>
-      <Name>Easy.PM.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Easy.PM.Service.VO\Easy.PM.Service.VO.csproj">
-      <Project>{b190d896-1629-4c62-85cd-ff31a10b76ef}</Project>
-      <Name>Easy.PM.Service.VO</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Easy.PM.Store\Easy.PM.Store.csproj">
-      <Project>{9db4e48a-e006-46b5-8d94-2d41243678f0}</Project>
-      <Name>Easy.PM.Store</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
