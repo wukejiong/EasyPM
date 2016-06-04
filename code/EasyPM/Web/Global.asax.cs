@@ -18,8 +18,8 @@ namespace Web
     {
         protected void Application_Start()
         {
-            IocFactory.Map<IProjectDao,ProjectDao>();
-            var projectDao = IocFactory.Resolves<IProjectDao>();
+            SingletonFactory.Map<IProjectDao,ProjectDao>();
+            var projectDao = SingletonFactory.Resolves<IProjectDao>();
 
             var list =projectDao.Get();
 

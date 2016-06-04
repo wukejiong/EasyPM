@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Easy.PM.Core.Util
 {
-    public class IocFactory
+    public class SingletonFactory
     {
         private static Dictionary<string,object> _instances=new Dictionary<string,object>();
 
