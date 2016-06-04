@@ -2,3 +2,9 @@ E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\bin\Debug\Easy.PM.Core.dll
 E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\bin\Debug\Easy.PM.Core.pdb
 E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\obj\Debug\Easy.PM.Core.dll
 E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\obj\Debug\Easy.PM.Core.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\bin\Debug\Easy.PM.Core.dll.config
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\bin\Debug\EntityFramework.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\bin\Debug\EntityFramework.xml
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Core\obj\Debug\Easy.PM.Core.csprojResolveAssemblyReference.cache

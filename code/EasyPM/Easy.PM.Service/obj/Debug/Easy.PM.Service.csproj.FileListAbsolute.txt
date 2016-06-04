@@ -2,3 +2,12 @@ E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Service.dl
 E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Service.pdb
 E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\obj\Debug\Easy.PM.Service.dll
 E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\obj\Debug\Easy.PM.Service.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\obj\Debug\Easy.PM.Service.csprojResolveAssemblyReference.cache
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Core.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Service.VO.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Store.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\EntityFramework.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Core.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Service.VO.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\Easy.PM.Store.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Service\bin\Debug\EntityFramework.xml

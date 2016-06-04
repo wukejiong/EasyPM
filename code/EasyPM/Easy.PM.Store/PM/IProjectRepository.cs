@@ -9,7 +9,6 @@ using Easy.PM.Store.DB;
 namespace Easy.PM.Store.PM
 {
     public interface IProjectRepository: IRepository<PM_Project>
-    {
-
+    { 
     }
 }

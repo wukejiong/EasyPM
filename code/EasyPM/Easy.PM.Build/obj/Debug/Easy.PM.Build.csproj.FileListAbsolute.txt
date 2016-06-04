@@ -1,0 +1,11 @@
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\bin\Debug\Easy.PM.Build.exe.config
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\bin\Debug\Easy.PM.Build.exe
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\bin\Debug\Easy.PM.Build.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\obj\Debug\Easy.PM.Build.MainForm.resources
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\obj\Debug\Easy.PM.Build.Properties.Resources.resources
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\obj\Debug\Easy.PM.Build.csproj.GenerateResource.Cache
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\obj\Debug\Easy.PM.Build.exe
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\obj\Debug\Easy.PM.Build.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\bin\Debug\MySql.Data.dll
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\bin\Debug\template\Dao\Dao.temp
+E:\项目\产品\EasyPM\code\EasyPM\Easy.PM.Build\bin\Debug\template\Dao\IDao.temp

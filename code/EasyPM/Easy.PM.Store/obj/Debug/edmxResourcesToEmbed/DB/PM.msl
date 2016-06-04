@@ -4,6 +4,7 @@
     <EntitySetMapping Name="PM_Project">
       <EntityTypeMapping TypeName="PMModel.PM_Project">
         <MappingFragment StoreEntitySet="PM_Project">
+          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
           <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
           <ScalarProperty Name="Desc" ColumnName="Desc" />

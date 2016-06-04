@@ -40,3 +40,15 @@ E:\项目\产品\EasyPM\code\EasyPM\Web\bin\Easy.PM.Service.pdb
 E:\项目\产品\EasyPM\code\EasyPM\Web\bin\Easy.PM.Store.pdb
 E:\项目\产品\EasyPM\code\EasyPM\Web\bin\EntityFramework.SqlServer.dll
 E:\项目\产品\EasyPM\code\EasyPM\Web\bin\EntityFramework.SqlServer.xml
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\Web.dll.config
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\System.Net.Http.Formatting.dll
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\System.Web.Http.dll
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\System.Web.Http.WebHost.dll
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\Easy.PM.Service.VO.dll
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\System.Net.Http.Formatting.xml
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\System.Web.Http.xml
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\System.Web.Http.WebHost.xml
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\Easy.PM.Service.VO.pdb
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\zh-Hans\System.Web.Http.resources.dll
+E:\项目\产品\EasyPM\code\EasyPM\Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll

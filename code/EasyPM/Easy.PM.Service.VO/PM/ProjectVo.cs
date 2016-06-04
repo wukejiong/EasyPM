@@ -13,5 +13,6 @@ namespace Easy.PM.Service.VO.PM
         public string Desc { get; set; }
         public int CreateUser { get; set; }
         public System.DateTime CreateTime { get; set; }
+        public int Status { get; set; }
     }
 }

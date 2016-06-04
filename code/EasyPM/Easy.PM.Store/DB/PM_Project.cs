@@ -19,5 +19,6 @@ namespace Easy.PM.Store.DB
         public string Desc { get; set; }
         public int CreateUser { get; set; }
         public System.DateTime CreateTime { get; set; }
+        public Nullable<int> Status { get; set; }
     }
 }

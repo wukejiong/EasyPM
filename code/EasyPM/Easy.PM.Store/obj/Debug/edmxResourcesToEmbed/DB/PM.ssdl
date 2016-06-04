@@ -9,6 +9,7 @@
     <Property Name="Desc" Type="varchar" MaxLength="255" />
     <Property Name="CreateUser" Type="int" Nullable="false" />
     <Property Name="CreateTime" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="Status" Type="int" />
   </EntityType>
   <EntityContainer Name="PMModelStoreContainer">
     <EntitySet Name="PM_Project" EntityType="Self.PM_Project" Schema="easypm" store:Type="Tables" />

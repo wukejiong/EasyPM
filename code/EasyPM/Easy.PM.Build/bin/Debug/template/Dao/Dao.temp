@@ -1,0 +1,4 @@
+﻿    public class <DAO>: EFRepository<<DTO>>, IProjectRepository
+    {
+        
+    }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Easy.PM.Core.DB;
 
 namespace Easy.PM.Core.Util
 {
@@ -17,7 +18,7 @@ namespace Easy.PM.Core.Util
         /// <typeparam name="Implement"></typeparam>
         public static void Map<Interface,Implement>() where Implement:new() {
             var key = typeof(Interface).ToString();
-            _instances.Add(key,new Implement());
+            _instances.Add(key,typeof(Implement));
         }
 
        
@@ -40,7 +41,20 @@ namespace Easy.PM.Core.Util
         public static T Resolves<T>()
         {
             var type=typeof(T).ToString();
-            return (T)_instances[type];
+            return (T)Activator.CreateInstance((Type)_instances[type], true);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public static T ResolvesUnitWork<T>(IUnitOfWork uow) where T: IDBContent
+        {
+            var type = typeof(T).ToString();
+            IDBContent result=(T)Activator.CreateInstance((Type)_instances[type], true);
+            result.SetContent(uow.GetContent());
+            return (T)result;
         }
     }
 }
